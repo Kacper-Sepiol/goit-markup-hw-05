@@ -840,3 +840,22 @@ address {
     margin-left: 215px;
     margin-top: 20px;
 }
+
+.label-second-title {
+    position: absolute;
+    background: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    text-align: center;
+    padding-top: 27px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.list-element-second-title-picture {
+    position: relative;
+}
