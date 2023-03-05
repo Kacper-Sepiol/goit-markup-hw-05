@@ -923,3 +923,11 @@ address {
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.2);
 } */
+
+.button-exit {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
