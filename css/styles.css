@@ -306,8 +306,7 @@ address {
 }
 
 .div-tel-icon {
-    margin-right: 30px;
-    fill: #757575;
+    fill: currentColor;
     display: inline-flex;
     align-items: center;
 }
