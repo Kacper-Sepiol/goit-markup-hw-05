@@ -157,20 +157,20 @@ button {
 
 .navigation {
     display: flex;
-    margin-left: 93px;
 }
 
 .navigation-info:not(:last-child) {
     margin-right: 43px;
 }
 
+.navigation-info {
+    color: var(--acent-color);
+    position: relative;
+}
+
 .navigation-email-tel {
-    margin-left: 227px;
-    font-family: "Roboto";
+    margin-left: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .container {
@@ -646,17 +646,10 @@ address {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.37;
-    color: white;
-    width: 1600px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
+    color: var(--background-color);
     text-align: center;
-    margin-top: 200px;
-    width: 696px;
-    height: 120px;
-    margin-left: 452px;
-    font-style: normal;
+    width: 650px;
+    margin: 0 auto;
     font-family: "Roboto", sans-serif;
 }
 
@@ -689,10 +682,6 @@ address {
 }
 
 body {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    flex-direction: column;
     font-family: "Roboto", sans-serif;
 }
 
@@ -710,12 +699,13 @@ body {
 
 .title {
     background-color: #2f303a;
-    display: flex;
-    flex-direction: column;
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
     margin: 0 auto;
     background-image: url("../images/img.jpg");
+    background-repeat: no-repeat;
+    background-size: color;
+    padding: 200px 0;
 }
 
 .button-main-title {
@@ -726,30 +716,28 @@ body {
     line-height: 1.6;
     cursor: pointer;
     border-radius: 4px;
-    width: 200px;
-    height: 50px;
-    margin-left: 700px;
+    min-width: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
     font-style: normal;
     font-weight: 700;
     font-family: "Roboto", sans-serif;
+    padding: 12px 42px;
 }
 
 .button-main-title:focus {
     background-color: #2196f3;
 }
 
-.main-index {
+/* .main-index {
     display: flex;
     flex-direction: column;
     padding-top: 0px;
     padding-bottom: 0px;
-}
+} */
 
 .information-div {
-    display: flex;
-    justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding: 94px 0;
 }
 
 .information-div-title:not(:last-child) {
@@ -768,14 +756,8 @@ body {
 }
 
 .two-second-title {
-    background-color: #f5f4fa;
-    width: 100%;
-    height: 648px;
-    margin: 0 auto;
-    margin-top: 94px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-color: var(--background-section);
+    padding: 10px 4px;
 }
 
 .list-two-second-title {
@@ -809,8 +791,8 @@ body {
 .icon-bottom-and-text {
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
-    margin-top: 72px;
+    padding-top: 75px;
+    padding-right: 94px;
 }
 
 .text-bottom {
