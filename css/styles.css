@@ -354,12 +354,7 @@ address {
 }
 
 .nasi-klienci {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 94px;
+    padding: 94px 0;
 }
 
 .bloki-nasi-klienci {
@@ -381,6 +376,7 @@ address {
     margin-right: 30px;
     border-radius: 4px;
 }
+
 .nasi-klienci-logo-2 {
     width: 170px;
     height: 92px;
@@ -392,6 +388,7 @@ address {
     margin-right: 30px;
     border-radius: 4px;
 }
+
 .nasi-klienci-logo-3 {
     width: 170px;
     height: 92px;
@@ -403,6 +400,7 @@ address {
     margin-right: 30px;
     border-radius: 4px;
 }
+
 .nasi-klienci-logo-4 {
     width: 170px;
     height: 92px;
@@ -414,6 +412,7 @@ address {
     margin-right: 30px;
     border-radius: 4px;
 }
+
 .nasi-klienci-logo-5 {
     width: 170px;
     height: 92px;
@@ -425,6 +424,7 @@ address {
     margin-right: 30px;
     border-radius: 4px;
 }
+
 .nasi-klienci-logo-6 {
     width: 170px;
     height: 92px;
