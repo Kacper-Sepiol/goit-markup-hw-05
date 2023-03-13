@@ -512,16 +512,19 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .icon-social-media-instagram {
     width: 44px;
     height: 44px;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
+    color: #afb1b8;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
 }
 
 .icon-social-media-instagram > svg {
@@ -543,34 +546,41 @@ address {
 .icon-social-media-twitter {
     width: 44px;
     height: 44px;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
+    color: #afb1b8;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
 }
 
 .icon-social-media-facebook {
     width: 44px;
     height: 44px;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
+    color: #afb1b8;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
 }
 
 .icon-social-media-interia {
     width: 44px;
     height: 44px;
-    background-color: white;
     border-radius: 50px;
     display: flex;
     justify-content: center;
+    color: #afb1b8;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
 }
 
 .icon-social-media-instagram:hover {
     background-color: #2196f3;
+    color: var(--background-color);
 }
 
 .icon:hover {
@@ -579,14 +589,17 @@ address {
 
 .icon-social-media-twitter:hover {
     background-color: #2196f3;
+    color: var(--background-color);
 }
 
 .icon-social-media-facebook:hover {
     background-color: #2196f3;
+    color: var(--background-color);
 }
 
 .icon-social-media-interia:hover {
     background-color: #2196f3;
+    color: var(--background-color);
 }
 
 .div-2-bottom {
@@ -627,6 +640,10 @@ address {
 .navigation-info {
     color: var(--acent-color);
     position: relative;
+}
+
+.first-second-title {
+    padding-bottom: 94px;
 }
 
 .navigation-info::after {
@@ -776,36 +793,28 @@ body {
 }
 
 .two-second-title {
-    background-color: var(--background-section);
-    padding: 10px 4px;
+    background-color: #f5f4fa;
+    padding: 94px 0;
 }
 
 .list-two-second-title {
-    list-style: none;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 0 auto;
+    gap: 30px;
 }
 
 .element-list-two-second-title {
-    margin-right: 30px;
-    background-color: white;
-    border-radius: 0px 0px 4px 4px;
-    height: 428px;
+    background-color: var(--background-color);
     width: 270px;
-    display: flex;
-    flex-direction: column;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
 .figcaption-index {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    padding: 30px 0;
+    text-align: center;
 }
 
 .icon-bottom-and-text {
@@ -847,7 +856,7 @@ body {
 }
 
 .icon {
-    fill: #ffffff;
+    fill: currentColor;
 }
 
 .icon-social-media-twitter-bottom {
