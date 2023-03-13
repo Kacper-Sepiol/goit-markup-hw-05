@@ -200,6 +200,7 @@ button {
     font-family: "Raleway";
     margin-top: 24px;
     margin-bottom: 25px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-logo:hover {
@@ -717,9 +718,13 @@ body {
     max-width: 1600px;
     height: 600px;
     margin: 0 auto;
-    background-image: url("../images/img.jpg");
+    background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/img.jpg");
     background-repeat: no-repeat;
-    background-size: color;
+    background-size: cover;
     padding: 200px 0;
 }
 
@@ -913,13 +918,14 @@ body {
     bottom: 0;
     width: 370px;
     height: 70px;
-    text-align: center;
-    padding-top: 27px;
     color: #ffffff;
     font-family: "Roboto";
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .list-element-second-title-picture {
