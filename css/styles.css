@@ -528,22 +528,6 @@ address {
     transition-duration: 250ms;
 }
 
-.icon-social-media-instagram > svg {
-    fill: #afb1b8;
-}
-
-.icon-social-media-interia > svg {
-    fill: #afb1b8;
-}
-
-.icon-social-media-twitter > svg {
-    fill: #afb1b8;
-}
-
-.icon-social-media-facebook > svg {
-    fill: #afb1b8;
-}
-
 .icon-social-media-twitter {
     width: 44px;
     height: 44px;
