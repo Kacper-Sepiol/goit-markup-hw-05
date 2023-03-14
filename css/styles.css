@@ -459,7 +459,7 @@ address {
     color: #afb1b8;
     transition-property: color, background-color;
     transition-duration: 250ms;
-    transition-timing-function: bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-media-twitter {
@@ -472,7 +472,7 @@ address {
     color: #afb1b8;
     transition-property: color, background-color;
     transition-duration: 250ms;
-    transition-timing-function: bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-media-facebook {
@@ -485,7 +485,7 @@ address {
     color: #afb1b8;
     transition-property: color, background-color;
     transition-duration: 250ms;
-    transition-timing-function: bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-media-interia {
@@ -497,10 +497,10 @@ address {
     color: #afb1b8;
     transition-property: color, background-color;
     transition-duration: 250ms;
-    transition-timing-function: bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-social-media-instagram:hover:focus {
+.icon-social-media-instagram:hover {
     background-color: #2196f3;
     color: var(--background-color);
 }
@@ -509,17 +509,17 @@ address {
     fill: #ffffff;
 }
 
-.icon-social-media-twitter:hover:focus {
+.icon-social-media-twitter:hover {
     background-color: #2196f3;
     color: var(--background-color);
 }
 
-.icon-social-media-facebook:hover:focus {
+.icon-social-media-facebook:hover {
     background-color: #2196f3;
     color: var(--background-color);
 }
 
-.icon-social-media-interia:hover:focus {
+.icon-social-media-interia:hover {
     background-color: #2196f3;
     color: var(--background-color);
 }
@@ -764,12 +764,15 @@ body {
 .icon-social-media-instagram-bottom {
     width: 44px;
     height: 44px;
-    background-color: #ffffff1a;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    margin-right: 10px;
+    color: #afb1b8;
+    background: rgba(255, 255, 255, 0.1);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-media-instagram-bottom:hover {
@@ -784,12 +787,15 @@ body {
 .icon-social-media-twitter-bottom {
     width: 44px;
     height: 44px;
-    background-color: #ffffff1a;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    margin-right: 10px;
+    color: #afb1b8;
+    background: rgba(255, 255, 255, 0.1);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-media-twitter-bottom:hover {
@@ -799,12 +805,15 @@ body {
 .icon-social-media-facebook-bottom {
     width: 44px;
     height: 44px;
-    background-color: #ffffff1a;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    margin-right: 10px;
+    color: #afb1b8;
+    background: rgba(255, 255, 255, 0.1);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-media-facebook-bottom:hover {
@@ -814,10 +823,15 @@ body {
 .icon-social-media-interia-bottom {
     width: 44px;
     height: 44px;
-    background-color: #ffffff1a;
-    border-radius: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: #afb1b8;
+    background: rgba(255, 255, 255, 0.1);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-media-interia-bottom:hover {
@@ -825,8 +839,6 @@ body {
 }
 
 .div-logo-bottom {
-    margin-left: 215px;
-    margin-top: 60px;
 }
 
 .div-logo-bottom-and-information-bottom {
