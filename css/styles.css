@@ -362,8 +362,6 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 94px;
 }
 
 .nasi-klienci-logo-1 {
@@ -526,6 +524,7 @@ address {
     color: #afb1b8;
     transition-property: color, background-color;
     transition-duration: 250ms;
+    transition-timing-function: bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-media-twitter {
@@ -538,6 +537,7 @@ address {
     color: #afb1b8;
     transition-property: color, background-color;
     transition-duration: 250ms;
+    transition-timing-function: bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-media-facebook {
@@ -550,6 +550,7 @@ address {
     color: #afb1b8;
     transition-property: color, background-color;
     transition-duration: 250ms;
+    transition-timing-function: bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social-media-interia {
@@ -561,9 +562,10 @@ address {
     color: #afb1b8;
     transition-property: color, background-color;
     transition-duration: 250ms;
+    transition-timing-function: bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-social-media-instagram:hover {
+.icon-social-media-instagram:hover:focus {
     background-color: #2196f3;
     color: var(--background-color);
 }
@@ -572,17 +574,17 @@ address {
     fill: #ffffff;
 }
 
-.icon-social-media-twitter:hover {
+.icon-social-media-twitter:hover:focus {
     background-color: #2196f3;
     color: var(--background-color);
 }
 
-.icon-social-media-facebook:hover {
+.icon-social-media-facebook:hover:focus {
     background-color: #2196f3;
     color: var(--background-color);
 }
 
-.icon-social-media-interia:hover {
+.icon-social-media-interia:hover:focus {
     background-color: #2196f3;
     color: var(--background-color);
 }
