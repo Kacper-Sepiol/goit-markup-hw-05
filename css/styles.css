@@ -258,12 +258,13 @@ address {
 
 .list-pictures-element {
     border: 1px solid #eeeeee;
-    background-color: white;
-    padding-right: 0px;
-    padding-left: 0px;
     width: 370px;
-    height: 404px;
     margin-bottom: 30px;
+    /* position: relative;
+    overflow: hidden; */
+}
+
+.list-pictures-element > img {
     position: relative;
     overflow: hidden;
 }
@@ -477,6 +478,8 @@ address {
     height: 294px;
     top: 294px;
     background-color: rgba(33, 150, 243, 0.9);
+    position: relative;
+    overflow: hidden;
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translatey(100%);
