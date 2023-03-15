@@ -259,6 +259,10 @@ address {
     color: #2196f3;
 }
 
+.list-pictures-item {
+    margin-bottom: 30px;
+}
+
 .list-pictures-element {
     display: block;
     transition-duration: box-shadow;
@@ -502,6 +506,14 @@ address {
 
 /* index.html */
 
+.picture-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+}
+
 .first-second-title {
     padding-bottom: 94px;
 }
@@ -630,13 +642,6 @@ body {
 .button-main-title:focus {
     background-color: #2196f3;
 }
-
-/* .main-index {
-    display: flex;
-    flex-direction: column;
-    padding-top: 0px;
-    padding-bottom: 0px;
-} */
 
 .information-div {
     padding: 94px 0;
@@ -787,9 +792,6 @@ body {
 
 .icon-social-media-interia-bottom:hover {
     background-color: #2196f3;
-}
-
-.div-logo-bottom {
 }
 
 .div-logo-bottom-and-information-bottom {
