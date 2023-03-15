@@ -732,6 +732,15 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
+.figcaption-index > span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    margin-bottom: 10px;
+}
+
 .figcaption-index {
     flex-direction: column;
     align-items: center;
