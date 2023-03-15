@@ -74,8 +74,8 @@ button {
     border-radius: 4px;
     margin-right: 8px;
     font-family: "Roboto";
-    height: 38px;
-    width: 121px;
+    padding: 6px 25px;
+    font-weight: 500;
 }
 
 .button:focus {
@@ -137,12 +137,6 @@ button {
     background-color: white;
     font-family: "Roboto", sans-serif;
     background-color: white;
-}
-
-.main-portfolio {
-    width: 1170px;
-    background-color: white;
-    margin: 0 auto;
 }
 
 .section {
