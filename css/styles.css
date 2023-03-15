@@ -226,6 +226,7 @@ figcaption {
     line-height: 1.9;
     font-weight: 400;
     font-family: "Roboto";
+    margin-bottom: 16px;
 }
 
 .list-pictures {
@@ -242,6 +243,7 @@ footer {
 }
 
 address {
+    margin-top: 20px;
     margin-bottom: 9px;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -382,64 +384,8 @@ address {
     fill: #afb1b8;
 }
 
-.nasi-klienci-logo-2-svg {
-    fill: #afb1b8;
-}
-
-.nasi-klienci-logo-2:hover {
-    border-color: #2196f3;
-}
-
-.nasi-klienci-logo-2-svg:hover {
-    fill: #2196f3;
-}
-
-.nasi-klienci-logo-3:hover {
-    border-color: #2196f3;
-}
-
-.nasi-klienci-logo-3-svg:hover {
-    fill: #2196f3;
-}
-
-.nasi-klienci-logo-3-svg {
-    fill: #afb1b8;
-}
-
-.nasi-klienci-logo-4:hover {
-    border-color: #2196f3;
-}
-
-.nasi-klienci-logo-4-svg:hover {
-    fill: #2196f3;
-}
-
-.nasi-klienci-logo-4-svg {
-    fill: #afb1b8;
-}
-
-.nasi-klienci-logo-5:hover {
-    border-color: #2196f3;
-}
-
-.nasi-klienci-logo-5-svg:hover {
-    fill: #2196f3;
-}
-
-.nasi-klienci-logo-5-svg {
-    fill: #afb1b8;
-}
-
-.nasi-klienci-logo-6:hover {
-    border-color: #2196f3;
-}
-
-.nasi-klienci-logo-6-svg:hover {
-    fill: #2196f3;
-}
-
-.nasi-klienci-logo-6-svg {
-    fill: #afb1b8;
+.nasi-klienci-logo-svg {
+    fill: currentColor;
 }
 
 .icon-social-media {
@@ -767,7 +713,7 @@ body {
 
 .icon-bottom {
     display: flex;
-    flex-direction: row;
+    gap: 10px;
 }
 
 .icon-social-media-instagram-bottom {
@@ -777,7 +723,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    color: #afb1b8;
+    color: #ffffff;
     background: rgba(255, 255, 255, 0.1);
     transition-property: color, background-color;
     transition-duration: 250ms;
@@ -785,7 +731,6 @@ body {
 }
 
 .icon-social-media-instagram-bottom:hover {
-    fill: #ffffff;
     background-color: #2196f3;
 }
 
@@ -800,7 +745,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    color: #afb1b8;
+    color: #ffffff;
     background: rgba(255, 255, 255, 0.1);
     transition-property: color, background-color;
     transition-duration: 250ms;
@@ -818,7 +763,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    color: #afb1b8;
+    color: #ffffff;
     background: rgba(255, 255, 255, 0.1);
     transition-property: color, background-color;
     transition-duration: 250ms;
@@ -836,7 +781,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    color: #afb1b8;
+    color: #ffffff;
     background: rgba(255, 255, 255, 0.1);
     transition-property: color, background-color;
     transition-duration: 250ms;
